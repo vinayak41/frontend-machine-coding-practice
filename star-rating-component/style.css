@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ratings {
+  background-color: rgb(243, 243, 243);
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 3rem;
+  line-height: 3rem;
+  display: flex;
+  list-style: none;
+}
+
+.star {
+  color: gray;
+  cursor: pointer;
+}
+
+.star.active {
+  color: yellow;
+}
+
+.star.active-preview {
+  color: rgb(255, 255, 124);
+}
+
+.star.inactive-preview {
+  color: gray;
+}
